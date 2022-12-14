@@ -4,7 +4,6 @@ const btn1 = document.getElementById('1')
 const btn2 = document.getElementById('2')
 const btn3 = document.getElementById('3')
 const btn4 = document.getElementById('4')
-const btn5 = document.getElementById('5')
 const btn6 = document.getElementById('6')
 const btn7 = document.getElementById('7')
 const btn8 = document.getElementById('8')
@@ -15,7 +14,7 @@ let changedValue
 const clockwiseBut = document.querySelector('.rotate-btn')
 const antiClockwiseButs = document.querySelectorAll('.rotate-btns')
 
-clockwiseBut.addEventListener ('click', function() {
+clockwiseBut.addEventListener('click', function () {
   clockwise()
   repaint()
 })
